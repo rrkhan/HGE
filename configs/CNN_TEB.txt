@@ -1,0 +1,28 @@
+# python train.py -c configs/CNN_TEB.txt
+
+
+# Output settings
+run_name = TEB_lines_euclidean
+output_dir = output
+data_path = TEB/
+benchmark = TEB
+
+# General settings
+device = cuda:0
+
+# Experiment settings
+seed = 12
+optimizer = Adam
+length = 1000
+
+# General training hyperparameters
+lr = 0.00001
+
+# Model selection
+num_channels = 32
+embedding_dim = 528
+manifold = euclidean
+
+# Dataset settings
+dataset_name = lines
+

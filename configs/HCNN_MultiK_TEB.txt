@@ -1,0 +1,30 @@
+# python train.py -c configs/HCNN_MultiK_TEB.txt
+
+
+# Output settings
+run_name = TEB_lines_hyperbolic_multi_k
+output_dir = output
+data_path = TEB/
+benchmark = TEB
+
+# General settings
+device = cuda:0
+
+# Experiment settings
+seed = 1
+length = 1000
+
+# General training hyperparameters
+lr = 0.00001
+
+# Model selection
+num_channels = 32
+embedding_dim = 528
+manifold = lorentz
+
+# Hyperbolic geometry settings
+multi_k_model = True
+
+# Dataset settings
+dataset_name = lines
+
