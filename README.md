@@ -23,7 +23,7 @@ conda install pytorch==1.13.0 torchvision==0.14.0 torchaudio==0.13.0 pytorch-cud
 ```
 pip install -r requirements.txt
 ```
-
+- additionally, we use the [embedders](https://github.com/pchlenski/embedders/) repo to sample points in our exploration of hyperbolicity. 
 
 ### Training
 
